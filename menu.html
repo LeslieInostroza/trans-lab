@@ -4,9 +4,64 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>Translab-Menu</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Fjalla+One" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  
+  <div class="container is-fluid">
+    <div class="dropdown">
+      <div class="dropdown-trigger">
+        <div class="dropdown is-hoverable">
+          <div class="dropdown-trigger">
+            <button class="button" aria-haspopup="true" aria-controls="dropdown-menu4">
+              <span>Menu</span>
+              <span class="icon is-small">
+                <i class="fas fa-angle-down" aria-hidden="true"></i>
+              </span>
+            </button>
+          </div>
+          <div class="dropdown-menu" id="dropdown-menu4" role="menu">
+            <div class="dropdown-content">
+              <div class="dropdown-item">
+                <hr class="dropdown-divider">
+                <a href="#" class="dropdown-item">Ver Saldo</a>
+                <hr class="dropdown-divider">
+                <a href="#" class="dropdown-item">Calcular Tarifa</a>
+                <hr class="dropdown-divider">
+                <a href="#" class="dropdown-item">Perfil</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="field">
+      <p class="control">
+        <button class="button Saldo" id = "btnSaldo">
+          <a href="">Ver Saldo</a>
+        </button>
+      </p>
+      <p class="control">
+        <button class="button tarifa" id = "btnTarifa">
+          <a href="">Calcular Tarifa</a>
+        </button>
+      </p>
+      <p class="control">
+        <button class="button Perfil" id = "btnPerfil">
+          <a href="">Perfil</a>
+        </button>
+      </p>
+      <p class="control">
+        <button class="button Preguntas" id = "btnAnswers">
+          <a href="">Preguntas Frecuentes</a>
+        </button>
+      </p>
+      </div>
+  </div> 
+
+
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 </body>
 </html>

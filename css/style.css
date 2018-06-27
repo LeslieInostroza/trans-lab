@@ -37,3 +37,27 @@ span{
   color:#F6A800;
   font-weight: bold;
 }
+.Saldo{
+  width: 100%;
+  background-color: #F6A800;
+  font-weight: bold;
+  font-family: 'Fjalla One', sans-serif;
+}
+.tarifa{
+  width: 100%;
+  background-color: #F6A800;
+  font-weight: bold;
+  font-family: 'Fjalla One', sans-serif;
+}
+.Perfil{
+  width: 100%;
+  background-color: #F6A800;
+  font-weight: bold;
+  font-family: 'Fjalla One', sans-serif;
+}
+.Preguntas{
+  width: 100%;
+  background-color: #F6A800;
+  font-weight: bold;
+  font-family: 'Fjalla One', sans-serif;
+}
