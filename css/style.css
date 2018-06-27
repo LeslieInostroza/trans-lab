@@ -37,6 +37,11 @@ span{
   color:#F6A800;
   font-weight: bold;
 }
+/* Estilo de menu*/
+.Menu{
+width: 100%;
+background-color: #3E3F41;
+}
 .Saldo{
   width: 100%;
   background-color: #F6A800;
