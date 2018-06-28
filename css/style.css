@@ -43,24 +43,28 @@ width: 100%;
 background-color: #3E3F41;
 }
 .Saldo{
+  margin-top: 5%;
   width: 100%;
   background-color: #F6A800;
   font-weight: bold;
   font-family: 'Fjalla One', sans-serif;
 }
 .tarifa{
+  margin-top: 10%;
   width: 100%;
   background-color: #F6A800;
   font-weight: bold;
   font-family: 'Fjalla One', sans-serif;
 }
 .Perfil{
+  margin-top: 10%;
   width: 100%;
   background-color: #F6A800;
   font-weight: bold;
   font-family: 'Fjalla One', sans-serif;
 }
 .Preguntas{
+  margin-top: 10%;
   width: 100%;
   background-color: #F6A800;
   font-weight: bold;

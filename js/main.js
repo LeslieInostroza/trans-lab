@@ -7,6 +7,7 @@ let filter = /^[-\w.%+]{1,64}@(?:[A-Z0-9-]{1,63}\.){1,125}[A-Z]{2,63}$/i;
 
 //Validar email
 btnPassword.addEventListener('click', () =>{
+  
   if(emailContacto.value === '' || password.value === ''){
     alert('Llene todos los campos');
     }
@@ -19,4 +20,5 @@ btnPassword.addEventListener('click', () =>{
     if(isNaN(password.value)){
       alert('Tienen que ser Numeros')
     }
+ window.open("menu.html");
 });
