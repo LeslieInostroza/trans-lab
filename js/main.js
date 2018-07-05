@@ -10,15 +10,12 @@ btnPassword.addEventListener('click', () =>{
   
   if(emailContacto.value === '' || password.value === ''){
     alert('Llene todos los campos');
-    }
-    if(!filter.test(emailContacto.value)){
+    } else if(!filter.test(emailContacto.value)){
       alert('Su Correo No Es Valido');
-    }
-    if(password.value.length > 8) {
-      alert('contraseña no valida');
-    }
-    if(isNaN(password.value)){
-      alert('Tienen que ser Numeros')
-    }
- window.open("menu.html");
+    } else if(password.value.length > 8) {
+      alert('contraseña no valida, solo numeros y maximo 8');
+    } else if(isNaN(password.value)){
+      alert('Solo numeros en su contraseña y con un maximo de 8');
+    } else (window.open('menu.html'));
+  
 });
