@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Translab-Menu</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="dropdown Menu">
+        <div class="dropdown-trigger">
+          <div class="dropdown is-hoverable">
+            <div class="dropdown-trigger">
+              <button class="button menuOpciones" aria-haspopup="true" aria-controls="dropdown-menu4">
+                <span>Menu</span>
+                <span>Trans-Lab</span>
+                <span class="icon is-small">
+                  <i class="fas fa-angle-down" aria-hidden="true"></i>
+                </span>
+              </button>
+            </div>
+            <div class="dropdown-menu" id="dropdown-menu4" role="menu">
+              <div class="dropdown-content">
+                <div class="dropdown-item">
+                  <hr class="dropdown-divider">
+                  <a href="#" class="dropdown-item">Ver Saldo</a>
+                  <hr class="dropdown-divider">
+                  <a href="#" class="dropdown-item">Calcular Tarifa</a>
+                  <hr class="dropdown-divider">
+                  <a href="#" class="dropdown-item">Perfil</a>
+                  <hr class="dropdown-divider">
+                  <a href="#" class="dropdown-item">Home</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  <div class="containerSaldo is-fluid">
+    <div class="control">
+				<input class="input is-rounded is-focused numTarjeta" id= "numTarjeta" type="text" placeholder="Ingrese Numero de Tarjeta Bip!">
+				<select name="menu" id = "tarifa">
+						<option value="760">Punta 760</option>
+						<option value="680">Valle 680</option>
+						<option value="630">Bajo 630</option>
+					</select>
+        <button class="button Saldo" id = "btnCalculo">
+				
+            <a href="">Calcular Tarifa</a>
+					</button>
+          <div class="infoTrajeta">
+						  <p id="saldo"></p>
+              <p id="CalculoTarjeta"></p>
+              
+              
+            </div>
+          </div>
+    
+  </div> 
+
+
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+  <script src="js/calcular.js"></script>
+</body>
+</html>
