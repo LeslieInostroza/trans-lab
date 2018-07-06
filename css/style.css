@@ -71,3 +71,25 @@ background-color: #3E3F41;
   font-weight: bold;
   font-family: 'Fjalla One', sans-serif;
 }
+.numTarjeta{
+  text-align: center;
+  margin-top: 30%;
+}
+#saldo{
+  text-align: center;
+  margin-top: 0%;
+  font-weight: bold;
+  background-color: #F6A800;
+}
+#tarjeta{
+  text-align: center;
+  margin-top: 20%;
+  font-weight: bold;
+  background-color: #F6A800;
+}
+#fecha{
+  text-align: center;
+  margin-top: 0%;
+  font-weight: bold;
+  background-color: #F6A800;
+}
